@@ -51,8 +51,20 @@ body {
     font-style: italic;
 }
 
-#guess-btn {
+.bottom-container {
     margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-container i {
+    margin-left: 20px;
+    position: absolute;
+    left: 0;
+}
+
+#guess-btn {
     padding: 10px 20px 10px 20px;
     border: 1px solid #f8f8f8;
     border-radius: 10px;

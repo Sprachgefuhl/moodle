@@ -50,6 +50,10 @@ if (!hasUserPlayedToday(stats.lastPlayedTimestamp)) {
             <span style="font-size: 30px;">5. 🐮</span>
             <h3></h3>
         </div>
+    `;
+
+    document.querySelector('.bottom-container').innerHTML = `
+        <i id="mute" class="fa-solid fa-volume-xmark"></i>
         <button id="guess-btn">Guess</button>
     `;
 
@@ -192,19 +196,22 @@ function renderShareStats() {
 let isAudioPlaying = false;
 let isAudioMuted = false;
 let audio;
-document.getElementById('sound').addEventListener('click', () => {
+document.getElementById('mute').addEventListener('click', () => {
     if (!isAudioPlaying) {
         audio = new Audio('theme.wav');
         audio.loop = true;  
         audio.play();
         isAudioPlaying = true;
+        document.getElementById('mute').className = 'fa-solid fa-volume-high';
     } else {
         if (!isAudioMuted) {
             audio.volume = 0;
             isAudioMuted = true;
+            document.getElementById('mute').className = 'fa-solid fa-volume-xmark';
         } else {
             audio.volume = 1;
             isAudioMuted = false;
+            document.getElementById('mute').className = 'fa-solid fa-volume-high';
         }
     }
 });
