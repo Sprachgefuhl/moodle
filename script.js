@@ -188,3 +188,23 @@ function renderWin() {
 function renderShareStats() {
     
 }
+
+let isAudioPlaying = false;
+let isAudioMuted = false;
+let audio;
+document.getElementById('sound').addEventListener('click', () => {
+    if (!isAudioPlaying) {
+        audio = new Audio('theme.wav');
+        audio.loop = true;  
+        audio.play();
+        isAudioPlaying = true;
+    } else {
+        if (!isAudioMuted) {
+            audio.volume = 0;
+            isAudioMuted = true;
+        } else {
+            audio.volume = 1;
+            isAudioMuted = false;
+        }
+    }
+});
