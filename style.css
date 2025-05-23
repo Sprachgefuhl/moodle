@@ -27,10 +27,9 @@ body {
 .game-container {
     margin-top: 30px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    /* gap: 40px; */
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .cow {
@@ -40,28 +39,34 @@ body {
     transition: 0.4s;
 }
 
+.cow p {
+    padding-top: 20px;
+}
+
 .cow:hover {
-    background-color: #3a3a3a;
+    background-color: #272727;
     /* border: 1px solid transparent; */
     /* font-size: 19px; */
 }
 
 .cow h3 {
     padding-top: 5px;
-    font-style: italic;
+    /* font-size: 18px; */
+    /* font-style: italic; */
 }
 
 .bottom-container {
     margin-top: 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .bottom-container i {
-    margin-left: 20px;
-    position: absolute;
-    left: 0;
+    /* float: left; */
+    /* margin-left: 20px; */
+    /* position: absolute; */
+    /* left: 0; */
 }
 
 #guess-btn {
@@ -82,4 +87,13 @@ body {
 #hidden-link {
     all: unset;
     cursor: pointer;
+}
+
+#share {
+    padding-right: 50px;
+    color: rgb(143, 160, 255);
+}
+
+#stats {
+    color: greenyellow;
 }

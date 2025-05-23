@@ -1,113 +1,49 @@
 [
     {
-        "date": 23,
-        "month": 5,
-        "cows": [
-            {
-                "id": 1,
-                "moo": "Mooo",
-                "mood": "mood 23",
-                "story": "story 23",
-                "isGrumpy": false
-            },
-            {
-                "id": 2,
-                "moo": "mo?",
-                "mood": "Unnervingly Joyous",
-                "story": "Jumped the fence. Long gone. Zero regret.",
-                "isGrumpy": true
-            },
-            {
-                "id": 3,
-                "moo": "MOOOOooooOOO",
-                "mood": "Unnervingly Joyous",
-                "story": "Jumped the fence. Long gone. Zero regret.",
-                "isGrumpy": false
-            },
-            {
-                "id": 4,
-                "moo": "moooOMoOm",
-                "mood": "Unnervingly Joyous",
-                "story": "Jumped the fence. Long gone. Zero regret.",
-                "isGrumpy": false
-            },
-            {
-                "id": 5,
-                "moo": "moo....",
-                "mood": "Unnervingly Joyous",
-                "story": "Jumped the fence. Long gone. Zero regret.",
-                "isGrumpy": false
-            }
-        ]
-    },{
         "date": 24,
         "month": 5,
         "cows": [
             {
                 "id": 1,
-                "moo": "24",
-                "mood": "mood 24",
-                "story": "story 24"
+                "moo": "ugh-moo",
+                "mood": "disdainfully bored",
+                "story": "Refuses to join the herd yoga circle. Claims downward cow is 'so last season'.",
+                "isGrumpy": true
             },
             {
                 "id": 2,
-                "moo": "24",
-                "mood": "Unnervingly Joyous",
-                "story": "Jumped the fence. Long gone. Zero regret."
+                "moo": "moo.",
+                "mood": "ominously patient",
+                "story": "Has been standing in the exact same spot for six hours. No one knows why. No one dares to ask.",
+                "isGrumpy": false
             },
             {
                 "id": 3,
-                "moo": "24",
-                "mood": "Unnervingly Joyous",
-                "story": "Jumped the fence. Long gone. Zero regret."
+                "moo": "moo!!",
+                "mood": "unreasonably excited",
+                "story": "Heard someone mention the 'snack pellets' two fields over. Hasn't calmed down since.",
+                "isGrumpy": false
             },
             {
                 "id": 4,
-                "moo": "24",
-                "mood": "Unnervingly Joyous",
-                "story": "Jumped the fence. Long gone. Zero regret."
+                "moo": "snort-moo",
+                "mood": "grumpily indifferent",
+                "story": "Woke up, rolled in mud on purpose, and stared into the distance like a barnyard philosopher.",
+                "isGrumpy": false
             },
             {
                 "id": 5,
-                "moo": "24",
-                "mood": "Unnervingly Joyous",
-                "story": "Jumped the fence. Long gone. Zero regret."
+                "moo": "moooooOOOOHhh",
+                "mood": "tragically poetic",
+                "story": "Writes sad poetry in the hayloft about being misunderstood. It's kinda of beautiful, actually.",
+                "isGrumpy": false
             }
         ]
     },{
         "date": 25,
-        "month": 5,
-        "cows": [
-            {
-                "id": 1,
-                "moo": "25",
-                "mood": "mood 25",
-                "story": "story 25"
-            },
-            {
-                "id": 2,
-                "moo": "25",
-                "mood": "Unnervingly Joyous",
-                "story": "Jumped the fence. Long gone. Zero regret."
-            },
-            {
-                "id": 3,
-                "moo": "25",
-                "mood": "Unnervingly Joyous",
-                "story": "Jumped the fence. Long gone. Zero regret."
-            },
-            {
-                "id": 4,
-                "moo": "25",
-                "mood": "Unnervingly Joyous",
-                "story": "Jumped the fence. Long gone. Zero regret."
-            },
-            {
-                "id": 5,
-                "moo": "25",
-                "mood": "Unnervingly Joyous",
-                "story": "Jumped the fence. Long gone. Zero regret."
-            }
-        ]
+        "month": 5
+    },{
+        "date": 26,
+        "month": 5
     }
 ]
